@@ -103,7 +103,8 @@ After opening port 1337 in the EC2 security group, I was able to access the Stra
 
 ## Issues Faced and How I Fixed Them
 
-* **Terraform module input error**: Fixed by correctly passing the key name to the module
+* **Terraform keyname input error**: Fixed by correctly passing the key name as variable to the module
+* **Userdata error** I faced an issue where the user data script did not install Node.js because Ubuntu-specific commands(apt) were used on an Amazon Linux instance. I resolved this by identifying the correct OS and installing the required packages(dnf) manually after SSH access.
 * **Strapi installation taking long time**: This was due to limited EC2 resources; waiting resolved it
 * **Strapi application doesnt start**: I resolved the Strapi startup issue by using npx create-strapi-app strapi-app --quickstart, which automatically completed the setup and started the application.
 
