@@ -105,7 +105,7 @@ After opening port 1337 in the EC2 security group, I was able to access the Stra
 
 * **Terraform module input error**: Fixed by correctly passing the key name to the module
 * **Strapi installation taking long time**: This was due to limited EC2 resources; waiting resolved it
-* **Strapi command not found**: Fixed by running Strapi using `npx`
+* **Strapi application doesnt start**: I resolved the Strapi startup issue by using npx create-strapi-app strapi-app --quickstart, which automatically completed the setup and started the application.
 
 These issues helped me better understand Terraform dependencies, SSH authentication, and application deployment.
 
