@@ -124,5 +124,3 @@ It improved my understanding of Infrastructure as Code and basic DevOps workflow
 
 ---
 
-
-Just tell me 👍
