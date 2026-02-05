@@ -125,3 +125,5 @@ It improved my understanding of Infrastructure as Code and basic DevOps workflow
 
 ---
 
+Checkout out my Loom video - [https://www.loom.com/share/dd8f15330e52409eac27e13329006e98]
+
